@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/main-background.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon_zoom_green {
+    opacity: 0.7;
+}
+
+.before_after {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 0px 20px;
+    color: aqua;
+}
+
+.before {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    margin-right: 60px;
+    margin-top: 55px;
+}
+
+.before:hover {
+    transform: scale(2) rotate(340deg);
+    filter: drop-shadow(50px 50px 50px rgb(7, 22, 228)) invert(30%);
+}
+
+.after {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.after:hover {
+    transform: scale(2) rotate(20deg);
+    filter: drop-shadow(50px 50px 50px rgb(7, 22, 228)) invert(30%);
+}
+
+.zoom_life {
+    /* display: inline-block;
+    margin: 100px 120px 0px 300px; */
+    font-family: 'Freckle Face', cursive;
+    font-size: 7rem;
+}
+
+.zoom_life:hover {
+    filter: drop-shadow(50px 50px 50px rgb(212, 107, 8)) invert(20%);
+    transform: scale(1.5);
+}
+
+.gif {
+    border-radius: 50%;
+    opacity: 0.7
+}
+
+.gif:hover {
+    transform: scale(1.5) rotate(40deg);
+}
+
+.bottom_icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
