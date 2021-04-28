@@ -1,3 +1,39 @@
 body {
     background-image: url(../images/zoom_gone_right_2\ \(1\).gif);
 }
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    animation: bounce-title 5s infinite;
+    position: relative;
+    height: 300px;
+    margin: 2px auto;
+    font-size: 80px;
+}
+
+@keyframes bounce-title {
+    0% {
+        down: 0px;
+    }
+    50% {
+        down: 500px;
+        width: 130px;
+        height: 70px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+video {
+    margin: 20px;
+}
+
+.lynn {
+    margin-left: 30%;
+}
