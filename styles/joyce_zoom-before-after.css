@@ -62,6 +62,15 @@
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
     filter: drop-shadow(50px 50px 50px rgb(212, 107, 8)) invert(20%);
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline aqua;
 }
 
 @keyframes zoomLife {
