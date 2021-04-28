@@ -1,0 +1,148 @@
+body {
+  /*background: repeating-linear-gradient(
+    90deg,
+    yellow 0px,
+    blue 40px,
+    green 40px,
+    red 80px
+  );*/
+  animation-name: radiate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes radiate {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: blue;}
+  50%  {top: 100px; left: 100px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
+
+.header__gone__wrong {
+  display: flex;
+  justify-content: center;
+}
+.title_gone_wrong {
+  font-family: papyrus;
+  font-size: 100px;
+  text-decoration: limegreen;
+  /*width: 100px;*/
+  height: 100px;
+  margin: 2px auto;
+  position: relative;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  0% {
+    top: 50px;
+  }
+  50% {
+    top: 800px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+    from {color: limegreen;}
+  to {color: rgb(237, 252, 34);}
+  to {color:  rgb(252, 29, 215);}
+}
+
+.main__gone__wrong {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.art__gone__wrong {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gone_wrong_video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+iframe {
+  border-radius: 15%;
+}
+
+.footer_gone_wrong {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.class_mates{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 25px;
+  text-decoration: rgb(36, 25, 138);
+  /*width: 100px;*/
+  height: 100px;
+  margin: 2px auto;
+  position: relative;
+  border-radius: 50%;
+  animation-name: bouncing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  text-decoration: rgb(58, 188, 240);
+  width: 100%;
+  height: 100px;
+  margin: 2px auto;
+  position: relative;
+  border-radius: 50%;
+  animation-name: bouncy;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouncing{
+  0% {
+    top: 50px;
+  }
+  50% {
+    top: 800px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes bouncy{
+  0% {
+    top: 50px;
+  }
+  50% {
+    top: 800px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
