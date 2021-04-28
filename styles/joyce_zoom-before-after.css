@@ -1,5 +1,5 @@
-@import url("../styles/before.css");
-@import url("../styles/after.css");
+@import url("../styles/joyce_before.css");
+@import url("../styles/joyce_after.css");
 .main_page {
     background-image: url("../images/main-background.jpg");
     background-blend-mode: overlay;
