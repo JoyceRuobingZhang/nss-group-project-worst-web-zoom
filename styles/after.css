@@ -1,0 +1,126 @@
+.after_page {
+    background-image: url(../images/afterBackground.jpg);
+    background-size: contain;
+    filter: saturate(120%);
+}
+
+.dress_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: rgb(0, 255, 234);
+    text-align: right;
+    margin-right: 100px;
+}
+
+.workout_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: rgb(0, 255, 234);
+}
+
+.wedding_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: rgb(0, 255, 234);
+    text-align: center;
+}
+
+.after_upper_img {
+    display: flex;
+    margin: 20px;
+}
+
+.dress_code_after {
+    flex: 1;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.dress_img_after {
+    opacity: 0.8;
+    width: 300px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 20%;
+    animation: dressImg 4000ms infinite;
+    position: relative;
+}
+
+@keyframes dressImg {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 30px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.workout_after {
+    flex: 2;
+    order: 1;
+    display: flex;
+    align-items: center;
+}
+
+.workout_img_after {
+    opacity: 0.8;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20%;
+    animation: workoutImg 2000ms infinite;
+    position: relative;
+}
+
+@keyframes workoutImg {
+    0% {
+        right: 0px;
+    }
+    50% {
+        right: 30px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.wedding_after {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.wedding_img_after {
+    width: 300px;
+    margin: 50px;
+    border-radius: 20px;
+    animation: weddingImg 2000ms infinite;
+    position: relative;
+}
+
+@keyframes weddingImg {
+    0% {
+        down: 30px;
+    }
+    25% {
+        top: 60px;
+    }
+    50% {
+        right: 30px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.after_bottom {
+    text-align: center;
+    font-family: 'Freckle Face', cursive;
+    margin-top: 100px;
+    color: blanchedalmond;
+}

@@ -1,0 +1,81 @@
+.before_page {
+    background-image: url(../images/before_background3.jpg);
+    background-size: contain;
+    filter: saturate(80%);
+}
+
+.before_dress_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: black;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.before_dress_img1 {
+    width: 600px;
+    margin-left: 500px;
+}
+
+.before_dress_img2 {
+    width: 700px;
+    float: left;
+}
+
+h2 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: black;
+    text-align: right;
+    margin: 100px 100px 0px 100px;
+}
+
+.before_dress_img3 {
+    width: 600px;
+    margin-left: 300px;
+}
+
+.before_workout_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: black;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.before_workout_img1 {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.before_workout_img3 {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.before_wedding_title {
+    font-family: 'Freckle Face', cursive;
+    font-size: 3rem;
+    color: black;
+    margin-left: 35%;
+}
+
+.before_wedding_img1 {
+    margin-left: 10%;
+}
+
+.before_wedding_img2 {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.before_wedding_img3 {
+    width: 500px;
+    margin-left: 50%;
+}
+
+.before_bottom {
+    text-align: center;
+    font-family: 'Freckle Face';
+    color: rgb(4, 105, 131);
+}

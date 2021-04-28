@@ -1,8 +1,11 @@
-body {
+@import url("../styles/before.css");
+@import url("../styles/after.css");
+.main_page {
     background-image: url("../images/main-background.jpg");
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: saturate(150%);
 }
 
 .top_icon {
@@ -27,10 +30,10 @@ body {
     font-size: 3rem;
     margin-right: 60px;
     margin-top: 55px;
+    animation: blink 400ms infinite;
 }
 
 .before:hover {
-    transform: scale(2) rotate(340deg);
     filter: drop-shadow(50px 50px 50px rgb(7, 22, 228)) invert(30%);
 }
 
@@ -39,18 +42,32 @@ body {
     font-size: 3rem;
     margin-left: 80px;
     margin-top: 50px;
+    animation: blink 400ms infinite;
+}
+
+@keyframes blink {
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 .after:hover {
-    transform: scale(2) rotate(20deg);
     filter: drop-shadow(50px 50px 50px rgb(7, 22, 228)) invert(30%);
 }
 
 .zoom_life {
-    /* display: inline-block;
-    margin: 100px 120px 0px 300px; */
     font-family: 'Freckle Face', cursive;
     font-size: 7rem;
+    animation-name: zoomLife;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    filter: drop-shadow(50px 50px 50px rgb(212, 107, 8)) invert(20%);
+}
+
+@keyframes zoomLife {
+    50% {
+        transform: scale(1.5);
+    }
 }
 
 .zoom_life:hover {
