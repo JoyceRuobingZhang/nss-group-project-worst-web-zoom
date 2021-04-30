@@ -2,7 +2,6 @@
 @import url("../styles/joyce_after.css");
 .main_page {
     background-image: url("../images/main-background.jpg");
-    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     filter: saturate(150%);
@@ -12,10 +11,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-}
-
-.icon_zoom_green {
-    opacity: 0.7;
 }
 
 .before_after {
@@ -31,6 +26,7 @@
     margin-right: 60px;
     margin-top: 55px;
     animation: blink 400ms infinite;
+    text-shadow: 0 0 0.4em currentColor;
 }
 
 .before:hover {
@@ -43,6 +39,7 @@
     margin-left: 80px;
     margin-top: 50px;
     animation: blink 400ms infinite;
+    text-shadow: 0 0 0.4em currentColor;
 }
 
 @keyframes blink {
@@ -61,16 +58,13 @@
     animation-name: zoomLife;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
-    filter: drop-shadow(50px 50px 50px rgb(212, 107, 8)) invert(20%);
-    color: black;
+    color: rgb(49, 48, 48);
+    text-shadow: 0 0 0.25em rgb(54, 59, 54);
+    transform: perspective(3em) rotateX(60deg);
 }
 
 a:link {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline aqua;
 }
 
 @keyframes zoomLife {
@@ -80,7 +74,6 @@ a:hover {
 }
 
 .zoom_life:hover {
-    filter: drop-shadow(50px 50px 50px rgb(212, 107, 8)) invert(20%);
     transform: scale(1.5);
 }
 

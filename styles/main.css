@@ -4,24 +4,27 @@ body {
 
 .title {
     font-family: 'Press Start 2P', cursive;
-    animation: bounce-title 5s infinite;
+    animation: bounce-title 4s infinite;
     position: relative;
-    height: 300px;
-    margin: 2px auto;
-    font-size: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 5rem;
+    text-shadow: 0 0 0.25em currentColor;
+    color: moccasin;
 }
 
 @keyframes bounce-title {
     0% {
-        down: 0px;
+        left: 0px;
+        down: 20px;
     }
     50% {
-        down: 500px;
-        width: 130px;
-        height: 70px;
+        left: 100px;
+        top: 100px;
     }
     100% {
-        top: 0px;
+        left: 0px;
+        up: 50px;
     }
 }
 

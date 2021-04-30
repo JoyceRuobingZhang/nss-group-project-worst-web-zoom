@@ -6,10 +6,13 @@
 
 .before_dress_title {
     font-family: 'Freckle Face', cursive;
-    font-size: 3rem;
-    color: black;
+    font-size: 4rem;
+    color: rgb(68, 66, 66);
     text-align: right;
-    margin-right: 100px;
+    margin: 20px 0px 20px 200px;
+    padding: 0.5em;
+    text-shadow: 0 0 0.125em currentColor;
+    transform: perspective(6em) rotateY(30deg);
 }
 
 .before_dress_img1 {
@@ -22,12 +25,14 @@
     float: left;
 }
 
-h2 {
+.it_might {
     font-family: 'Freckle Face', cursive;
-    font-size: 3rem;
-    color: black;
+    font-size: 5rem;
+    color: rgb(68, 66, 66);
     text-align: right;
-    margin: 100px 100px 0px 100px;
+    margin: 100px 20px 100px 150px;
+    text-shadow: 0 0 0.125em currentColor;
+    transform: perspective(3em) rotateY(20deg);
 }
 
 .before_dress_img3 {
@@ -37,10 +42,11 @@ h2 {
 
 .before_workout_title {
     font-family: 'Freckle Face', cursive;
-    font-size: 3rem;
-    color: black;
+    font-size: 4rem;
+    color: rgb(68, 66, 66);
     text-align: right;
     margin-right: 10px;
+    text-shadow: 0 0 0.125em currentColor;
 }
 
 .before_workout_img1 {
@@ -56,8 +62,9 @@ h2 {
 .before_wedding_title {
     font-family: 'Freckle Face', cursive;
     font-size: 3rem;
-    color: black;
+    color: rgb(68, 66, 66);
     margin-left: 35%;
+    text-shadow: 0 0 0.125em currentColor;
 }
 
 .before_wedding_img1 {

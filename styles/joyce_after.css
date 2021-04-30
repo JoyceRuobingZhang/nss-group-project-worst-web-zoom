@@ -7,15 +7,44 @@
 .dress_title {
     font-family: 'Freckle Face', cursive;
     font-size: 3rem;
-    color: rgb(0, 255, 234);
-    text-align: right;
+    color: aqua;
     margin-right: 100px;
+    text-shadow: 0 0 0.3em currentColor;
+    position: relative;
+    display: inline-block;
+    margin-left: 35%;
+}
+
+.dress_title:after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    transform: perspective(4em) rotateX(70deg);
+    filter: blur(0.8em);
 }
 
 .workout_title {
     font-family: 'Freckle Face', cursive;
     font-size: 3rem;
     color: rgb(0, 255, 234);
+    text-shadow: 0 0 0.2em currentColor;
+    position: relative;
+}
+
+.workout_title:after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    transform: perspective(4em) rotateX(70deg);
+    filter: blur(0.8em);
 }
 
 .wedding_title {
@@ -23,6 +52,22 @@
     font-size: 3rem;
     color: rgb(0, 255, 234);
     text-align: center;
+    text-shadow: 0 0 0.2em currentColor;
+    position: relative;
+    margin: 5% 20% 5% 20%;
+    margin-right: 20%;
+}
+
+.wedding_title:after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    transform: perspective(4em) rotateX(70deg);
+    filter: blur(0.8em);
 }
 
 .after_upper_img {
