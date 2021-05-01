@@ -1,0 +1,11 @@
+body {
+    background-image:
+    url("http://duleygrafix.com/serlinks/images/zoom_gone_right_bg.gif") center no-repeat,
+  }
+
+  .gogood {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
